@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SCRAPER</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+      <a href="{% url 'scrape' %}" class="navbar-brand">Scraper</a>
+        <div class="navbar">
+
+          <a href="https://github.com/SH-Ali-Sheikhi" class="nav-item nav-link">Github</a>
+          <a href="https://stackoverflow.com/users/15071015/ali-sheikhi?tab=profile" class="nav-item nav-link">Stackoverflow</a>
+          <a href="https://www.linkedin.com/in/ali-sheikhi-28a527208/" class="nav-item nav-link">LinkedIn</a>
+
+        </div>
+      </div>
+    </nav>
+
+    <br>
+    {% block body %}
+    {% endblock %}
+
+
+  </body>
+</html>
