@@ -1,2 +1,2 @@
 # Link-Collector
-Scraper for url
+Scraper for url site by django
